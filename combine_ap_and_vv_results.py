@@ -21,9 +21,9 @@ def main():
 
 if __name__ == "__main__":
 
-	vv_result_file = '/srv/share/aagrawal307/compositionality/vqa/vqa_compositionality/to_release/predictions/vv_results.json'
-	ap_result_file = '/srv/share/aagrawal307/compositionality/vqa/vqa_compositionality/to_release/predictions/ap_results.json'
+	vv_result_file = 'predictions/vv_results.json'
+	ap_result_file = 'predictions/ap_results.json'
 
-	output_result_file = '/srv/share/aagrawal307/compositionality/vqa/vqa_compositionality/to_release/predictions/gvqa_results.json'
+	output_result_file = 'predictions/gvqa_results.json'
 
 	main()

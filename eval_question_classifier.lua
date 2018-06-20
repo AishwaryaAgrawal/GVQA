@@ -19,12 +19,12 @@ cmd:text()
 cmd:text('Options')
 
 -- Data input settings
-cmd:option('-input_data_folder','/srv/share/aagrawal307/compositionality/vqa/vqa_compositionality/to_release/processed_inputs/','path to the data folder')
+cmd:option('-input_data_folder','processed_inputs/','path to the data folder')
 cmd:option('-input_ques_h5','processed_question_for_question_classifier.h5','path to the h5file containing the preprocessed dataset')
 cmd:option('-input_json','input_json_for_question_classifier.json','path to the json file containing additional info and vocab')
-cmd:option('-model_path', '/srv/share/aagrawal307/compositionality/vqa/vqa_compositionality/to_release/models/', 'path to folder containing different models')
+cmd:option('-model_path', 'models/', 'path to folder containing different models')
 cmd:option('-model_name', 'model_question_classifier.t7', 'name of the model checkpoint to initialize model weights from. Empty = don\'t')
-cmd:option('-out_path', '/srv/share/aagrawal307/compositionality/vqa/vqa_compositionality/to_release/predictions/', 'path to save predictions files')
+cmd:option('-out_path', 'predictions/', 'path to save predictions files')
 
 -- Model parameter settings
 cmd:option('-question_word_encoding','glove','glove or one-hot')

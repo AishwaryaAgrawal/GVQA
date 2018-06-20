@@ -18,21 +18,21 @@ cmd:text()
 cmd:text('Options')
 
 -- Data input settings
-cmd:option('-input_data_folder','/srv/share/aagrawal307/compositionality/vqa/vqa_compositionality/to_release/processed_inputs/','path to the data folder')
-cmd:option('-input_question_classifier_output','/srv/share/aagrawal307/compositionality/vqa/vqa_compositionality/to_release/predictions/question_classifier_results.h5', 'path to file containing yes no output')
+cmd:option('-input_data_folder','processed_inputs/','path to the data folder')
+cmd:option('-input_question_classifier_output','predictions/question_classifier_results.h5', 'path to file containing yes no output')
 
 cmd:option('-input_h5','processed_question_for_vv_and_ap.h5','path to the h5file containing the image feature for train')
 cmd:option('-input_json','input_json_for_vcc.json','path to json file containing information about alignment between acp and vcc clusters')
 
-cmd:option('-input_h5_acp_test', '/srv/share/aagrawal307/compositionality/vqa/vqa_compositionality/to_release/predictions/acp_results.h5', 'path to the h5file containing the acp predictions for test')
-cmd:option('-input_h5_vcc_test', '/srv/share/aagrawal307/compositionality/vqa/vqa_compositionality/to_release/predictions/vcc_results.h5', 'path to the h5file containing the vcc predictions for test')
+cmd:option('-input_h5_acp_test', 'predictions/acp_results.h5', 'path to the h5file containing the acp predictions for test')
+cmd:option('-input_h5_vcc_test', 'predictions/vcc_results.h5', 'path to the h5file containing the vcc predictions for test')
 
 cmd:option('-input_json_orig','input_json_for_vv_and_ap.json','path to the json file containing additional info and vocab')
 
-cmd:option('-model_path', '/srv/share/aagrawal307/compositionality/vqa/vqa_compositionality/to_release/models/', 'path to folder containing different models')
+cmd:option('-model_path', 'models/', 'path to folder containing different models')
 cmd:option('-model_name', 'model_ap.t7', 'name of the model checkpoint to initialize model weights from. Empty = don\'t')
 
-cmd:option('-out_path', '/srv/share/aagrawal307/compositionality/vqa/vqa_compositionality/to_release/predictions/', 'path to save output json file')
+cmd:option('-out_path', 'predictions/', 'path to save output json file')
 cmd:option('-num_visual_concepts', 1958, 'size of fc1') -- change this depending on which VCC is being used
 
 -- Model parameter settings
