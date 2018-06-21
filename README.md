@@ -54,7 +54,9 @@ python combine_ap_and_vv_results.py
 
 In order to run the above scripts, please place the processed inputs provided [here](https://computing.ece.vt.edu/~aish/vqacp/code/processed_inputs/) in a directory called `processed_inputs` at `GVQA/` and please place the trained models provided [here](https://computing.ece.vt.edu/~aish/vqacp/code/models/) in a directory called `models/` at `GVQA/`.
 
-The processed inputs contain the output of the CE module (as the CE module is just a simple rule followed by GloVe embedding extraction). The processing scripts to obtain these processed inputs from the raw questions and images will be released soon.
+The processed inputs contain the output of the CE module (as the CE module consists of some simple Part-of-Speech (POS) tag based rules followed by GloVe embedding extraction). The processing scripts to obtain these processed inputs from the raw questions and images will be released soon.
+
+The processed inputs and the trained models provided here are for the VQA-CP v2 dataset.
 
 ## Training Code ##
 Coming Soon.
