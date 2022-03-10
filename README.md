@@ -1,7 +1,7 @@
 # GVQA
 Code for the Grounded Visual Question Answering (GVQA) model from the below paper:
 
-[Don't Just Assume; Look and Answer: Overcoming Priors for Visual Question Answering](https://www.cc.gatech.edu/~aagrawal307/vqa-cp/)  
+[Don't Just Assume; Look and Answer: Overcoming Priors for Visual Question Answering](https://www.iro.umontreal.ca/~agrawal/vqa-cp/)  
 Aishwarya Agrawal, Dhruv Batra, Devi Parikh, Aniruddha Kembhavi  
 IEEE Conference on Computer Vision and Pattern Recognition (CVPR), 2018  
 https://arxiv.org/abs/1712.00377
@@ -56,7 +56,7 @@ In order to run the above scripts, please place the processed inputs provided [h
 
 The processed inputs contain the output of the CE module (as the CE module consists of some simple Part-of-Speech (POS) tag based rules followed by GloVe embedding extraction). The processing scripts to obtain these processed inputs from the raw questions and images will be released soon.
 
-The processed inputs and the trained models provided here are for the [VQA-CP v2 dataset](https://www.cc.gatech.edu/~aagrawal307/vqa-cp/).
+The processed inputs and the trained models provided here are for the [VQA-CP v2 dataset](https://www.iro.umontreal.ca/~agrawal/vqa-cp/).
 
 ## Training Code ##
 Coming Soon.
